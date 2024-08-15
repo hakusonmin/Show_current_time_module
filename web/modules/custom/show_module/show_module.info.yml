@@ -1,0 +1,7 @@
+name: 'Show Module'
+type: module
+description: 'show current time .'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:node

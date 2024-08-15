@@ -1,0 +1,7 @@
+show_module.current_time:
+  path: '/current-time'
+  defaults:
+    _controller: '\Drupal\show_module\Controller\CurrentTimeController::currentTime'
+    _title: 'Show Current Time'
+  requirements:
+    _permission: 'access content'
